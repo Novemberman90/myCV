@@ -3,10 +3,153 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
   <title>Іващенко Олексій</title>
 </head>
 <body>
-  
+  <main class="main">
+    <section class="resume">
+      <div class="container">
+        <div class="resume__inner">
+          <aside class="resume__sidebar">
+            <picture class="resume__picture">
+              <source srcset="./images/foto.avif">
+              <source srcset="./images/foto.webp">
+              <img src="./images/foto.jpg" alt="фото">
+            </picture>
+            <div class="resume__sidebar-box">
+              <div class="contact">
+                <h3 class="contact__title aside-title">Contact</h3>
+                <ul class="contact__list">
+                  <li class="contact__item">
+                    <a class="contact__link contact__link--tel" href="tel:+380638286820">+38 (063) 82 86 820</a>
+                  </li>
+                  <li class="contact__item">
+                    <a class="contact__link contact__link--mail" href="mailto:alexledovit@gmail.com">alexledovit@gmail.com</a>
+                  </li>
+                  <li class="contact__item">
+                    <a class="contact__link contact__link--telegram" href="mailto:alexledovit@gmail.com">Telegram</a>
+                  </li>
+                  <li class="contact__item">
+                    <a class="contact__link contact__link--ln" href="https://www.linkedin.com/in/alexey-ivashchenko-45b668a1" target="_blank">LinkedIn</a>
+                  </li>
+                  <li class="contact__item">
+                    <a class="contact__link contact__link--git" href="https://github.com/Novemberman90" target="_blank">Git</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tech">
+                <h3 class="tech__title aside-title">Tech Skills</h3>
+                <ul class="tech__list">
+                  <li class="tech__item">HTML5</li>
+                  <li class="tech__item">Bootstrap</li>
+                  <li class="tech__item">CSS3</li>
+                  <li class="tech__item">SCSS</li>
+                  <li class="tech__item">GULP</li>
+                  <li class="tech__item">JavaScript</li>
+                  <li class="tech__item">jQuery</li>
+                  <li class="tech__item">Git</li>
+                </ul>
+              </div>
+              <div class="soft">
+                <h3 class="soft__title aside-title">Soft Skills</h3>
+                <ul class="soft__list">
+                  <li class="soft__item">Teamwork</li>
+                  <li class="soft__item">Responsibility</li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <div class="resume__content">
+            <h1 class="resume__title">Ivashchenko Alexey</h1>
+            <h3 class="resume__subtitle">Junior Front-End Developer</h3>
+            <ul class="resume__person">
+              <li class="resume__person-item">
+                <span>Age: </span> 33
+              </li>
+              <li class="resume__person-item">
+                <span>Family status: </span>  married
+              </li>
+              <li class="resume__person-item">
+                <span>Children: </span> yes
+              </li>
+              <li class="resume__person-item">
+                <span>Place of birth / residence: </span> Ukraine, Kyiv
+              </li>
+            </ul>
+            <div class="projects">
+              <h2 class="projects__title">Projects</h2>
+              <ol class="projects__list">
+                <li class="projects__item">
+                 <a class="projects__link" href="https://novemberman90.github.io/lavuri_desing/" target="_blank">Lavuri desing</a>
+                <span class="projects__separator"></span>
+                 <div class="projects__tech">HTML5, SCSS, JS</div>
+                </li>
+                <li class="projects__item">
+                  <a class="projects__link" href="#" target="_blank">The Flowers Valley</a>
+                  <span class="projects__separator"></span>
+                  <div class="projects__tech">HTML5, SCSS, jQuery, GULP</div>
+                </li>
+                <li class="projects__item">
+                  <a class="projects__link" href="#" target="_blank">Euphoria</a>
+                  <span class="projects__separator"></span>
+                  <div class="projects__tech">HTML5, SCSS, jQuery, GULP</div>
+                </li>
+                <li class="projects__item">
+                  <a class="projects__link" href="#" target="_blank">Digital Project</a>
+                  <span class="projects__separator"></span>
+                  <div class="projects__tech">HTML5, SCSS, JS</div>
+                </li>
+                <li class="projects__item">
+                  <a class="projects__link" href="#" target="_blank">Weather App</a>
+                  <span class="projects__separator"></span>
+                  <div class="projects__tech">HTML5, CSS, Bootstrap, weathers API, JS</div>
+                </li>
+              </ol>
+            </div>
+            <div class="exprs">
+              <h2 class="exprs__title">Work Experience</h2>
+              <div class="exprs__block">
+                <h3 class="exprs__block-title">Freelance</h3>
+                <p class="exprs__period">June 2023 - to date</p>
+              </div>
+              <div class="exprs__block">
+                <h3 class="exprs__block-title">Regional Sales Manager <span>K-FLEX Ukraine</span></h3>
+                <p class="exprs__period">October 2016 - June 2023 <span>|</span> Ukraine</p>
+                <ul class="exprs__list">
+                  <li class="exprs__item">
+                    Development of the dealer network in the central region of Ukraine;
+                  </li>
+                  <li class="exprs__item">
+                    Project sales: industrial sector and retail;
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="education">
+              <h2 class="education__title">Education</h2>
+              <ul class="education__list">
+                <li class="education__item">
+                  <h4 class="education__item-title">Course on JavaScript + React - from scratch to results</h4>
+                  <p class="education__author">Ivan Petrichenko</p>
+                  <p class="education__date">Now</p>
+                </li>
+                <li class="education__item">
+                  <h4 class="education__item-title">Course on website layou from 0 to 1</h4>
+                  <p class="education__author">Vadym Prokopchuk</p>
+                  <p class="education__date">March 2024 <span>-</span> May 2024</p>
+                </li>
+                <li class="education__item">
+                  <h4 class="education__item-title">National University of Food Technologies</h4>
+                  <h4 class="education__subtitle">Specialist in Refrigeration Machines</h4>
+                  <p class="education__date">September 2008 <span>-</span> February 2016 <span>|</span> Ukraine</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
