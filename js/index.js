@@ -11,35 +11,36 @@ window.addEventListener('DOMContentLoaded', ()=>{
   /* skills */
 
   const teckSkillsList = document.querySelector('.tech__list'),
-        softSkillsList = document.querySelector('.soft__list');
+        softSkillsList = document.querySelector('.soft__list'),
+        projectsList = document.querySelector('.projects__list');
   
-  function renderSkills() {
+  const renderList = (element,data,itemCallback) => {
+    if (!element || !data ) return;
+    element.innerHTML = data.map(itemCallback).join('');
+  } 
+  function renderItemList() {
+    /* teckSkillsList */
+    renderList(
+    teckSkillsList,
+    data.skills,
+    (item) => `<li class="tech__item">${item}</li>`
+    );
 
-    if (teckSkillsList) {
-       let skillsData ='';
-       data.skills.forEach(item => {
-      skillsData += `<li class="tech__item">${item}</li>`;
-      });
-      teckSkillsList.innerHTML = skillsData;
-    };
+ /* softSkillsList */
+    renderList(
+      softSkillsList,
+      data.softSkills,
+      (item) =>  `<li class="soft__item">${item}</li>`
+    );
 
-    if (softSkillsList) {
-      let softSkillsData ='';
-      data.softSkills.forEach(item => {
-       softSkillsData += `<li class="soft__item">${item}</li>`;
-     });
-     softSkillsList.innerHTML = softSkillsData;
-    };
+    /* projects */
+    renderList(
+      projectsList,
+      projectsData,
+      (item) =>`<li class="projects__item"><a class="projects__link" href="${item.link}" target="_blank">${item.name}</a><span class="projects__separator"></span><div class="projects__tech">${item.tech}</div></li>`
+    );
+
   }
-  renderSkills();
+  renderItemList();
 
-  /* projects */
-
-  const projectsList = document.querySelector('.projects__list');
-  let projectItem ='';
-  projectsData.forEach(item => {
-    projectItem += `<li class="projects__item"><a class="projects__link" href="${item.link}" target="_blank">${item.name}</a><span class="projects__separator"></span><div class="projects__tech">${item.tech}</div></li>`
-  });
-
-  projectsList.innerHTML = projectItem;
 });
