@@ -47,10 +47,10 @@ const projectsData = [
     "name":  "Euphoria",
     "tech":  "HTML5, SCSS, jQuery, GULP",
   },
-  
   {
-    "link":  "https://stellular-mochi-dc666e.netlify.app/",
-    "name":  "Weather App",
-    "tech":  "HTML5, CSS, Bootstrap, weathers API, JS",
+    "link":  "https://novemberman90.github.io/WeatherAppWeek7",
+    "name":  "Weather Forecast",
+    "tech":  "HTML5, CSS, JS, API",
   },
+  
 ]

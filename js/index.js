@@ -1,11 +1,16 @@
 window.addEventListener('DOMContentLoaded', ()=>{
 
   /* contact */
-  document.querySelector('.contact__list').innerHTML +=` <li class="contact__item"><a class="contact__link contact__link--tel" href="tel:${data.phone[0]}">${data.phone[1]}</a></li>`;
-  document.querySelector('.contact__list').innerHTML +=` <li class="contact__item"><a class="contact__link contact__link--mail" href="mailto:${data.email}">${data.email}</a></li>`;
-  document.querySelector('.contact__list').innerHTML +=` <li class="contact__item"><a class="contact__link contact__link--telegram" href="https://t.me/@NovemberMan90">Telegram</a></li>`;
-  document.querySelector('.contact__list').innerHTML += `<li class="contact__item"><a class="contact__link contact__link--ln" href="${data.linkedIn}" target="_blank">LinkedIn</a></li>`;
-  document.querySelector('.contact__list').innerHTML += `<li class="contact__item"><a class="contact__link contact__link--git" href="${data.github}" target="_blank">Git</a></li>`;
+  const contactList = document.querySelector('.contact__list');
+  contactList.innerHTML +=
+  `<li class="contact__item"><a class="contact__link contact__link--tel" href="tel:${data.phone[0]}">${data.phone[1]}</a></li>
+  <li class="contact__item"><a class="contact__link contact__link--mail" href="mailto:${data.email}">${data.email}</a></li>
+  <li class="contact__item"><a class="contact__link contact__link--telegram" href="${data.telegram}">Telegram</a></li>
+  <li class="contact__item"><a class="contact__link contact__link--ln" href="${data.linkedIn}" target="_blank">LinkedIn</a></li>
+  <li class="contact__item"><a class="contact__link contact__link--git" href="${data.github}" target="_blank">Git</a></li>
+  `;
+
+
   
 
   /* skills */
