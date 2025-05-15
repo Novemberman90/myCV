@@ -25,6 +25,21 @@ const data = {
 
 const projectsData = [
     {
+      "link": "https://novemberman90.github.io/haier/",
+      "name": "Haier TV",
+      "tech": "HTML5, SCSS, CSS + JS Animation (header)",
+    },
+    {
+      "link": "https://bravis.ua/",
+      "name": "Bravis TV",
+      "tech": "HTML5, SCSS",
+    },
+    {
+      "link": "https://www.thevillajolo.com/",
+      "name": "The Villa Jolo",
+      "tech": "HTML5, SCSS, Retina Ready, JQ, Gulp",
+    },
+    {
       "link": "https://novemberman90.github.io/lavuri_desing/",
       "name": "Lavuri desing",
       "tech": "HTML5, SCSS, JS",
