@@ -25,6 +25,11 @@ const data = {
 
 const projectsData = [
     {
+      "link": "https://new.archiviz.biz/",
+      "name": "Archiviz",
+      "tech": "HTML5, SCSS, JS, GULP, PHP, WordPress",
+    },
+    {
       "link": "https://novemberman90.github.io/haier/",
       "name": "Haier TV",
       "tech": "HTML5, SCSS, CSS + JS Animation (header)",
