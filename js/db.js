@@ -49,7 +49,11 @@ const projectsData = [
       "name": "Lavuri desing",
       "tech": "HTML5, SCSS, JS",
     },
-  
+    {
+    "link":  "https://novemberman90.github.io/euphoria/dist/index.html",
+    "name":  "Euphoria",
+    "tech":  "HTML5, SCSS, jQuery, GULP",
+  },
     {
       "link": "https://novemberman90.github.io/flowers_valley/dist/index.html",
       "name": "Flowers Valley",
@@ -62,11 +66,6 @@ const projectsData = [
     "tech": "HTML, SCSS, JS",
   },
 
-  {
-    "link":  "https://novemberman90.github.io/euphoria/dist/index.html",
-    "name":  "Euphoria",
-    "tech":  "HTML5, SCSS, jQuery, GULP",
-  },
   {
     "link":  "https://novemberman90.github.io/WeatherAppWeek7",
     "name":  "Weather Forecast",
