@@ -25,12 +25,17 @@ const data = {
 
 const projectsData = [
     {
+      "link": "https://www.korielgroup.com/",
+      "name": "Koriel Group",
+      "tech": "HTML5, SCSS, JS, GULP, PHP, WordPress",
+    },
+    {
       "link": "https://new.archiviz.biz/",
       "name": "Archiviz",
       "tech": "HTML5, SCSS, JS, GULP, PHP, WordPress",
     },
     {
-      "link": "https://novemberman90.github.io/haier/",
+      "link": "https://haier-tv.com.ua/",
       "name": "Haier TV",
       "tech": "HTML5, SCSS, CSS + JS Animation (header)",
     },
