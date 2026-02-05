@@ -37,12 +37,12 @@ const projectsData = [
     },
     {
       "link": "https://zenovpn.com/",
-      "name": "Citadel VPN",
+      "name": "Zeno VPN",
       "tech": "HTML5, SCSS, JS, GULP, localisation, RTL, Team Work",
     },
     {
       "link": "https://1sa.me/index.html",
-      "name": "Citadel VPN",
+      "name": "Isa Dagestani",
       "tech": "HTML5, SCSS, JS, GULP, localisation, RTL",
     },
     {

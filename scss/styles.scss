@@ -179,7 +179,7 @@
     margin-bottom: 20px;
     &::before {
     counter-increment: number;
-    content: "0" counter(number);
+    content: "" counter(number);
     position: absolute;
     @extend %roboto-500;
     color: $accent;
