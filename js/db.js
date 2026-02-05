@@ -1,7 +1,7 @@
 const data = {
   "phone": ['+380638286820', '+38 (063) 82 86 820'],
   "email":'alexledovit@gmail.com',
-  "telegram":'https://t.me/@NovemberMan90',
+  "telegram":'https://t.me/+380638286820',
   "linkedIn":'https://www.linkedin.com/in/alexey-ivashchenko-45b668a1',
   "github":'https://github.com/Novemberman90',
   "skills": [
