@@ -11,6 +11,7 @@ const data = {
     "SCSS",
     "JavaScript",
     "jQuery",
+    "PHP (basic)",
     "GULP",
     "WebPack",
     "Git",
@@ -28,6 +29,21 @@ const projectsData = [
       "link": "https://www.korielgroup.com/",
       "name": "Koriel Group",
       "tech": "HTML5, SCSS, JS, GULP, PHP, WordPress",
+    },
+    {
+      "link": "https://mycitadel.vip/",
+      "name": "Citadel VPN",
+      "tech": "HTML5, SCSS, JS, GULP, localisation, RTL, Team Work",
+    },
+    {
+      "link": "https://zenovpn.com/",
+      "name": "Citadel VPN",
+      "tech": "HTML5, SCSS, JS, GULP, localisation, RTL, Team Work",
+    },
+    {
+      "link": "https://1sa.me/index.html",
+      "name": "Citadel VPN",
+      "tech": "HTML5, SCSS, JS, GULP, localisation, RTL",
     },
     {
       "link": "https://new.archiviz.biz/",
