@@ -26,6 +26,16 @@ const data = {
 
 const projectsData = [
     {
+      "link": "https://ringel.com.ua/",
+      "name": "Ringel",
+      "tech": "HTML5(Component), SCSS, GULP, Team Work",
+    },
+    {
+      "link": "https://www.archiviz.biz/",
+      "name": "ArchiViz",
+      "tech": "HTML5, SCSS, JS, GULP, PHP, WordPress",
+    },
+    {
       "link": "https://www.korielgroup.com/",
       "name": "Koriel Group",
       "tech": "HTML5, SCSS, JS, GULP, PHP, WordPress",
@@ -46,9 +56,9 @@ const projectsData = [
       "tech": "HTML5, SCSS, JS, GULP, localisation, RTL",
     },
     {
-      "link": "https://new.archiviz.biz/",
-      "name": "Archiviz",
-      "tech": "HTML5, SCSS, JS, GULP, PHP, WordPress",
+      "link": "https://praga38.pl/",
+      "name": "Praga38",
+      "tech": "HTML5, SCSS, JS, GULP, PHP, GoogleAPI",
     },
     {
       "link": "https://haier-tv.com.ua/",
@@ -61,7 +71,7 @@ const projectsData = [
       "tech": "HTML5, SCSS",
     },
     {
-      "link": "https://www.thevillajolo.com/",
+      "link": "https://novemberman90.github.io/villa_jolo/dist/index.html",
       "name": "The Villa Jolo",
       "tech": "HTML5, SCSS, Retina Ready, JQ, Gulp",
     },
