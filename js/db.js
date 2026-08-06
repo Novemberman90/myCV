@@ -56,11 +56,6 @@ const projectsData = [
       "tech": "HTML5, SCSS, JS, GULP, localisation, RTL, Parallax(Rellax.js)",
     },
     {
-      "link": "https://praga38.pl/",
-      "name": "Praga38",
-      "tech": "HTML5, SCSS, JS, GULP, PHP, GoogleAPI",
-    },
-    {
       "link": "https://haier-tv.com.ua/",
       "name": "Haier TV",
       "tech": "HTML5, SCSS, CSS + JS Animation (header)",
@@ -69,6 +64,11 @@ const projectsData = [
       "link": "https://bravis.ua/",
       "name": "Bravis TV",
       "tech": "HTML5, SCSS",
+    },
+    {
+      "link": "https://praga38.pl/",
+      "name": "Praga38",
+      "tech": "HTML5, SCSS, JS, GULP, PHP, GoogleAPI, Team Work",
     },
     {
       "link": "https://novemberman90.github.io/villa_jolo/dist/index.html",
