@@ -53,7 +53,7 @@ const projectsData = [
     {
       "link": "https://1sa.me/index.html",
       "name": "Isa Dagestani",
-      "tech": "HTML5, SCSS, JS, GULP, localisation, RTL",
+      "tech": "HTML5, SCSS, JS, GULP, localisation, RTL, Parallax(Rellax.js)",
     },
     {
       "link": "https://praga38.pl/",
